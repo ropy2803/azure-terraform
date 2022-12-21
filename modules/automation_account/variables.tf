@@ -40,62 +40,62 @@ variable "resource_group_location" {
 variable "tag_application" {
 
   type        = string
-  description = ""
+  description = "identify the value of application tag. "
 
 }
 
 variable "tag_cost_center" {
 
   type        = string
-  description = ""
+  description = "identify the value of cost center tag. "
 
 }
 
 variable "tag_deployment_method" {
 
   type        = string
-  description = ""
+  description = "identify the value of deployment method tag. "
 
 }
 
 variable "tag_entity" {
 
   type        = string
-  description = ""
+  description = "identify the value of entity tag. "
 
 }
 
 variable "tag_environment" {
 
   type        = string
-  description = ""
+  description = "identify the value of environment tag. "
 
 }
 
 variable "tag_location" {
 
   type        = string
-  description = ""
+  description = "identify the value of location tag. "
 
 }
 
 variable "tag_msp" {
 
   type        = string
-  description = ""
+  description = "identify the value of msp tag. "
 
 }
 
 variable "tag_owner" {
 
   type        = string
-  description = ""
+  description = "identify the value of owner tag. "
 
 }
 
 variable "tag_role" {
 
   type        = string
-  description = ""
+  description = "identify the value of role tag. "
 
 }

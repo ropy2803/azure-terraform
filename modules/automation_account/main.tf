@@ -6,7 +6,7 @@ resource "azurerm_automation_account" "AutomationAccount" {
   name                  = var.automation_account_name
   resource_group_name   = var.resource_group_name
   location              = var.resource_group_location
-  sku_name              = var.automation_account_sku
+  sku_name              = var.automation_account_sku    // possible value: Basic, Free
 
   tags = {
 
