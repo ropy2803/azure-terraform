@@ -1,46 +1,45 @@
 
-### automation
+// variables for automation
 
 variable "automation_account_name" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the name of automation account. "
 
 }
 
 variable "automation_account_sku" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the sku for the automation account. "
 
 }
 
-### main
+
+
+// variables for resource group
 
 variable "resource_group_name" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the name of resource group. "
 
 }
 
 variable "resource_group_location" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identity the location of resource group. "
 
 }
 
-### tagging
+
+
+// variables for tagging
 
 variable "tag_application" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -48,7 +47,6 @@ variable "tag_application" {
 variable "tag_cost_center" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -56,7 +54,6 @@ variable "tag_cost_center" {
 variable "tag_deployment_method" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -64,7 +61,6 @@ variable "tag_deployment_method" {
 variable "tag_entity" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -72,7 +68,6 @@ variable "tag_entity" {
 variable "tag_environment" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -80,7 +75,6 @@ variable "tag_environment" {
 variable "tag_location" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -88,7 +82,6 @@ variable "tag_location" {
 variable "tag_msp" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -96,7 +89,6 @@ variable "tag_msp" {
 variable "tag_owner" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
@@ -104,7 +96,6 @@ variable "tag_owner" {
 variable "tag_role" {
 
   type        = string
-  default     = ""
   description = ""
 
 }
