@@ -1,110 +1,101 @@
 
-### automation
+// variables for automation
 
 variable "automation_account_name" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the name of automation account. "
 
 }
 
 variable "automation_account_sku" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the sku for the automation account. "
 
 }
 
-### main
+
+
+// variables for resource group
 
 variable "resource_group_name" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the name of resource group. "
 
 }
 
 variable "resource_group_location" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identity the location of resource group. "
 
 }
 
-### tagging
+
+
+// variables for tagging
 
 variable "tag_application" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of application tag. "
 
 }
 
 variable "tag_cost_center" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of cost center tag. "
 
 }
 
 variable "tag_deployment_method" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of deployment method tag. "
 
 }
 
 variable "tag_entity" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of entity tag. "
 
 }
 
 variable "tag_environment" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of environment tag. "
 
 }
 
 variable "tag_location" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of location tag. "
 
 }
 
 variable "tag_msp" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of msp tag. "
 
 }
 
 variable "tag_owner" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of owner tag. "
 
 }
 
 variable "tag_role" {
 
   type        = string
-  default     = ""
-  description = ""
+  description = "identify the value of role tag. "
 
 }
